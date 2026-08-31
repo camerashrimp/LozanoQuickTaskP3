@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Jump : MonoBehaviour
 {
-    public float speed = 5f;
+    public float jumpForce = 5f;
     private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,8 +14,6 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * horizontalInput * speed * Time.deltaTime);
-
+        
     }
 }

@@ -313,7 +313,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b61a82f9e08490f439a5d20d5bfd9c73, type: 3}
---- !u!1001 &1059231060
+--- !u!1001 &987583547
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -327,11 +327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3561532239620867475, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.022075
+      value: -8.107388
       objectReference: {fileID: 0}
     - target: {fileID: 3561532239620867475, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8692596
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 3561532239620867475, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
       propertyPath: m_LocalPosition.z
@@ -368,29 +368,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1650941791698440923, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1678309202}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
---- !u!1 &1678309201 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1650941791698440923, guid: 0e9b29ef4d3c2b942b8900389133d863, type: 3}
-  m_PrefabInstance: {fileID: 1059231060}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1678309202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678309201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d25bf7ffeb3ecb0469829ecd04e0052f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Movement
-  speed: 5
 --- !u!1001 &1161625468761512941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -519,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7000985009823628878, guid: fc917efbd54e5bc4c94d2dd49e70b0c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2651802
+      value: -1.17
       objectReference: {fileID: 0}
     - target: {fileID: 7000985009823628878, guid: fc917efbd54e5bc4c94d2dd49e70b0c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -571,4 +550,4 @@ SceneRoots:
   - {fileID: 2778114345019817027}
   - {fileID: 5571303730787753579}
   - {fileID: 1161625468761512941}
-  - {fileID: 1059231060}
+  - {fileID: 987583547}
